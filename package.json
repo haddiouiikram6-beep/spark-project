@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "cd spark && vite",
+    "build": "cd spark && tsc -b && vite build",
+    "lint": "cd spark && eslint .",
+    "preview": "cd spark && vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.2.4",
+    "tailwindcss": "^4.2.4"
+  }
+}
